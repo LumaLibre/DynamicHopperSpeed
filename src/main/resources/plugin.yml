@@ -1,0 +1,10 @@
+main: net.lumamc.dhs.DynamicHopperSpeed
+name: DynamicHopperSpeed
+version: '1.0-SNAPSHOT'
+api-version: 1.21
+author: Jsinco
+description: Change hopper speeds without modifying the spigot.yml and without needing to restart the server.
+commands:
+  dhs:
+    description: Reloads the DynamicHopperSpeed configuration.
+    default: op
